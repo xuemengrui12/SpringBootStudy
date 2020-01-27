@@ -5,13 +5,12 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.DispatcherServlet;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
 /**
  * Created by xmr on 2019/8/1.
  */
 @Configuration
-public class WebConfig extends WebMvcConfigurationSupport {
+public class WebConfig {
 
 
     /**
