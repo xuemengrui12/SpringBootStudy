@@ -1,0 +1,7 @@
+server:
+  port: 8082
+#  servlet.context-path: /SpringWeb
+girl:
+  name: may
+  age: 18
+content: "cupSize: ${name},age: ${age}"

@@ -1,5 +1,7 @@
 package com.xmr.error_resolver.controller;
 
+
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/handler")
 public class HandlerController {
-    @RequestMapping("/test")
+    @RequestMapping("/hello")
     public void test() {
         throw new NullPointerException("出错了！");
     }
 
-//    @ExceptionHandler({NullPointerException.class})
+    @ExceptionHandler({NullPointerException.class})
     public String exception(NullPointerException e) {
         System.out.println(e.getMessage());
         e.printStackTrace();

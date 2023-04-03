@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>thymeleaf简单示例</title>
+</head>
+<body>
+
+<h1 th:inlines="text">单文件上传</h1>
+<form action="fileUpload" method="post" enctype="multipart/form-data">
+    <p>选择文件: <input type="file" name="fileName"/></p>
+    <p><input type="submit" value="提交"/></p>
+</form>
+<h1 th:inlines="text">多文件上传</h1>
+<form action="multifileUpload" method="post" enctype="multipart/form-data">
+    <p>选择文件1: <input type="file" name="fileName"/></p>
+    <p>选择文件2: <input type="file" name="fileName"/></p>
+    <p>选择文件3: <input type="file" name="fileName"/></p>
+    <p><input type="submit" value="提交"/></p>
+</form>
+</body>
+</html>

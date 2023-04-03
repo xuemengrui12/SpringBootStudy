@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aab0c79e-5c42-46e0-96c1-084928bc76f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/src/main/java/com/xmr/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/src/main/java/com/xmr/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_actuator/src/test/java/com/xmr/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/src/main/java/com/xmr/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/src/main/java/com/xmr/aspect/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/src/main/java/com/xmr/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_aop_log/src/test/java/com/xmr/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/java/com/xmr/async/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/java/com/xmr/async/config/CustomThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/java/com/xmr/async/config/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/java/com/xmr/async/controller/AsyncController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/java/com/xmr/async/controller/ServletController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/java/com/xmr/async/service/SyncService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_async/src/test/java/com/xmr/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xmr/dubbo/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_dubbo_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_dubbo_api/src/main/java/com/xmr/dubbo/api/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_error_resolver/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_error_resolver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_error_resolver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_error_resolver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_error_resolver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_event/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_event/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_event/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_event/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_event/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_filter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_filter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_filter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_filter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_filter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_interceptor/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_interceptor/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_interceptor/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_interceptor/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_interceptor/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jdbc/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jdbc/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jdbc/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jdbc/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jdbc/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/controller/GirlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/domain/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/repository/GirlRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/repository/custom/CustomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/repository/custom/CustomRepositoryFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/repository/custom/CustomRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/service/IGirlService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/java/com/xmr/jpa/service/impl/GirlServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jpa/src/test/java/com/xmr/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/src/main/java/com/xmr/jsp/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/src/main/java/com/xmr/jsp/SpringbootJspApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/src/main/java/com/xmr/jsp/controller/JspController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_jsp/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_listener/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_listener/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_listener/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_listener/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_listener/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_logback/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_logback/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_logback/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_logback/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_logback/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/config/JdbcTemplateDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/controller/JdbcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/java/com/xmr/db/jdbc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/test/java/com/xmr/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_datasource/src/test/java/com/xmr/JdbcSimpleDatasourceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/config/MybatisConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/domain/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/mapper/ds2/StuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/service/IStuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/service/ITestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/java/com/xmr/db/mybatis/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/resources/mybatis/mapper/ds2/StuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_multiple_mybatis_ds/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/java/com/xmr/mybatis/MybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/java/com/xmr/mybatis/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/java/com/xmr/mybatis/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/java/com/xmr/mybatis/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/main/resources/users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/test/java/com/xmr/mybatis/MybatisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_mybatis_xml/src/test/java/com/xmr/mybatis/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_netty/src/main/java/com/xmr/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_netty/src/main/java/com/xmr/netty/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/xmr/rabbitmq/AmqpSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/xmr/rabbitmq/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/dao/ISecurityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/dao/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/dao/impl/SecurityDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/domain/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/domain/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/domain/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/security/CustomUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/java/com/xmr/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/resources/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/main/resources/templates/thymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_security/src/test/java/com/xmr/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_servlet/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_servlet/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_servlet/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_servlet/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_servlet/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_single_datasource/src/main/java/com/xmr/jdbc/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_single_datasource/src/test/java/com/xmr/JdbcSimpleDatasourceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_thymeleaf/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_thymeleaf/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_thymeleaf/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_thymeleaf/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_thymeleaf/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_websocket/src/main/java/com/xmr/websocket/WebSocketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_websocket/src/main/java/com/xmr/websocket/WebSocketUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_freemarker/src/main/java/com/xmr/controller/FreemarkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_freemarker/src/main/java/com/xmr/controller/FreemarkerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_helloworld/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_jdbc/src/main/java/com/xmr/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_jdbc/src/main/java/com/xmr/jdbc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_jdbc/src/main/java/com/xmr/jdbc/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_jdbc/src/main/java/com/xmr/jdbc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_listener/src/main/java/com/xmr/listener/MyHttpSessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_listener/src/main/java/com/xmr/listener/MyHttpSessionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_logback/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_dubbo_api/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_dubbo_server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springboot_dubbo_server/src/main/java/com/xmr/dubbo/server/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot_dubbo_api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_dubbo_server/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xmr/dubbo/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot_dubbo_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35402298" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xmr.dubbo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xmr.dubbo.server" />
+      <recent name="com.xmr.dubbo.api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootDubboApplication">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="springboot_dubbo_server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="springboot_dubbo_server" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootDubboApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_dubbo_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmr.dubbo.SpringbootDubboApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootDubboServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_dubbo_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmr.dubbo.server.SpringbootDubboServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aab0c79e-5c42-46e0-96c1-084928bc76f5" name="Default Changelist" comment="" />
+      <created>1582262807988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582262807988</updated>
+      <workItem from="1582262812766" duration="5775000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5775000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="-12" width="3864" height="2118" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948294" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.3299356" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Jms Messenger" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/springboot_dubbo_api/src/main/java/com/xmr/dubbo/api/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_dubbo_api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_dubbo_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_dubbo_server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1141">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmr/dubbo/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xmr/dubbo/SpringbootDubboApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot_dubbo_server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

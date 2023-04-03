@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xmr.rabbitmq.dao.MsgLogMapper">
+
+    <resultMap type="com.xmr.rabbitmq.pojo.MsgLog" id="MsgLogMap">
+        <result property="msgId" column="msg_id" jdbcType="VARCHAR"/>
+        <result property="msg" column="msg" jdbcType="VARCHAR"/>
+        <result property="exchange" column="exchange" jdbcType="VARCHAR"/>
+        <result property="routingKey" column="routing_key" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="INTEGER"/>
+        <result property="tryCount" column="try_count" jdbcType="INTEGER"/>
+        <result property="nextTryTime" column="next_try_time" jdbcType="TIMESTAMP"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <update id="updateStatus">
+        update msg_log set status = #{status}, update_time = now()
+        where msg_id = #{msgId}
+    </update>
+    <select id="selectTimeoutMsg" resultMap="MsgLogMap">
+        select  msg_id, msg, exchange, routing_key, status, try_count, next_try_time, create_time, update_time
+        from msg_log
+        where status = 0
+        and next_try_time &lt;= now()
+    </select>
+
+    <update id="updateTryCount">
+        update msg_log set try_count = try_count + 1, next_try_time = #{nextTryTime}, update_time = now()
+        where msg_id = #{msgId}
+    </update>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="MsgLogMap">
+        select
+            msg_id, msg, exchange, routing_key, status, try_count, next_try_time, create_time, update_time
+        from msg_log
+        where msg_id = #{msgId,jdbcType=VARCHAR}
+    </select>
+    <!--查询单个-->
+    <select id="queryById" resultMap="MsgLogMap">
+        select
+          msg_id, msg, exchange, routing_key, status, try_count, next_try_time, create_time, update_time
+        from test.msg_log
+        where msg_id = #{msgId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="MsgLogMap">
+        select
+          msg_id, msg, exchange, routing_key, status, try_count, next_try_time, create_time, update_time
+        from test.msg_log
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="MsgLogMap">
+        select
+          msg_id, msg, exchange, routing_key, status, try_count, next_try_time, create_time, update_time
+        from test.msg_log
+        <where>
+            <if test="msgId != null and msgId != ''">
+                and msg_id = #{msgId}
+            </if>
+            <if test="msg != null and msg != ''">
+                and msg = #{msg}
+            </if>
+            <if test="exchange != null and exchange != ''">
+                and exchange = #{exchange}
+            </if>
+            <if test="routingKey != null and routingKey != ''">
+                and routing_key = #{routingKey}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+            <if test="tryCount != null">
+                and try_count = #{tryCount}
+            </if>
+            <if test="nextTryTime != null">
+                and next_try_time = #{nextTryTime}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+            <if test="updateTime != null">
+                and update_time = #{updateTime}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="msgId" useGeneratedKeys="true">
+        insert into test.msg_log(msg_id,msg, exchange, routing_key, status, try_count, next_try_time, create_time, update_time)
+        values (#{msgId},#{msg}, #{exchange}, #{routingKey}, #{status}, #{tryCount}, #{nextTryTime}, #{createTime}, #{updateTime})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update test.msg_log
+        <set>
+            <if test="msg != null and msg != ''">
+                msg = #{msg},
+            </if>
+            <if test="exchange != null and exchange != ''">
+                exchange = #{exchange},
+            </if>
+            <if test="routingKey != null and routingKey != ''">
+                routing_key = #{routingKey},
+            </if>
+            <if test="status != null">
+                status = #{status},
+            </if>
+            <if test="tryCount != null">
+                try_count = #{tryCount},
+            </if>
+            <if test="nextTryTime != null">
+                next_try_time = #{nextTryTime},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime},
+            </if>
+        </set>
+        where msg_id = #{msgId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from test.msg_log where msg_id = #{msgId}
+    </delete>
+
+</mapper>

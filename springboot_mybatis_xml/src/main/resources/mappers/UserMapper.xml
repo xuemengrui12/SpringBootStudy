@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xmr.mybatis.dao.UserMapper">
+    <resultMap id="BaseResultMap" type="com.xmr.mybatis.model.User">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="password" property="passWord" jdbcType="VARCHAR"/>
+        <result column="sex" property="sex" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, name, password, sex
+    </sql>
+
+    <select id="getAll" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM users
+    </select>
+
+    <select id="getOne" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM users
+        WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.xmr.mybatis.model.User">
+        INSERT INTO
+        users
+        (name,password,sex)
+        VALUES
+        (#{name}, #{passWord}, #{sex})
+    </insert>
+
+    <update id="update" parameterType="com.xmr.mybatis.model.User">
+        UPDATE
+        users
+        SET
+        <if test="name != null">name = #{name},</if>
+        <if test="passWord != null">password = #{passWord},</if>
+        WHERE
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        DELETE FROM
+        users
+        WHERE
+        id =#{id}
+    </delete>
+
+
+    <select id="get0" resultMap="BaseResultMap">
+        select
+            id, username, name, age, balance
+        from cloud.user
+        where id = #{id} and username= #{username}
+    </select>
+
+    <select id="get1" resultMap="BaseResultMap">
+        select
+            id, username, name, age, balance
+        from cloud.user
+        where id = #{id} and username= #{username}
+    </select>
+
+    <select id="get2" resultMap="BaseResultMap">
+        select
+            id, username, name, age, balance
+        from cloud.user
+        where id = #{id} and username= #{username}
+    </select>
+
+    <select id="post" resultMap="BaseResultMap">
+        select
+            id, username, name, age, balance
+        from cloud.user
+        where id = #{id} and username= #{username}
+    </select>
+</mapper>

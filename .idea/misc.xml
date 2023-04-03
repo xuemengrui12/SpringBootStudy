@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot_jsp" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot_actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mail-master/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_adminui_client/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_json/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_error_resolver/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis_jar/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis_druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_netty/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_devtools/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_async/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_port/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_security/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_util/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_multiple_mybatisplus_ds/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis_plus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_junit/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_environment/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_file/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot_jpa/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>

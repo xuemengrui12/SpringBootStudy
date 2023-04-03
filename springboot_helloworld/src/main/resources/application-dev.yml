@@ -1,0 +1,10 @@
+server:
+  port: 8080
+#  server.servlet.context-path: /SpringWeb #配置context-path
+name: ss
+age: 22
+content: "name: ${name},age: ${age}"
+
+hello:
+    msg: spring
+

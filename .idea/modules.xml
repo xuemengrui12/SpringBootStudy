@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootStudy.iml" filepath="$PROJECT_DIR$/.idea/SpringBootStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-master.iml" filepath="$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-order-web/springboot2.0-dubbo-order-web.iml" filepath="$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-order-web/springboot2.0-dubbo-order-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-public-api-service/springboot2.0-dubbo-public-api-member-service/springboot2.0-dubbo-public-api-member-service.iml" filepath="$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-public-api-service/springboot2.0-dubbo-public-api-member-service/springboot2.0-dubbo-public-api-member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-public-api-member-service-impl/springboot2.0-dubbo-public-api-member-service-impl.iml" filepath="$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-public-api-member-service-impl/springboot2.0-dubbo-public-api-member-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-public-api-service/springboot2.0-dubbo-public-api-service.iml" filepath="$PROJECT_DIR$/springboot2.0-dubbo-master/springboot2.0-dubbo-public-api-service/springboot2.0-dubbo-public-api-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_actuator/springboot_actuator.iml" filepath="$PROJECT_DIR$/springboot_actuator/springboot_actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_adminui_client/springboot_adminui_client.iml" filepath="$PROJECT_DIR$/springboot_adminui_client/springboot_adminui_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_adminui_server/springboot_adminui_server.iml" filepath="$PROJECT_DIR$/springboot_adminui_server/springboot_adminui_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_aop_log/springboot_aop_log.iml" filepath="$PROJECT_DIR$/springboot_aop_log/springboot_aop_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_async/springboot_async.iml" filepath="$PROJECT_DIR$/springboot_async/springboot_async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_cache/springboot_cache.iml" filepath="$PROJECT_DIR$/springboot_cache/springboot_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_devtools/springboot_devtools.iml" filepath="$PROJECT_DIR$/springboot_devtools/springboot_devtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_environment/springboot_environment.iml" filepath="$PROJECT_DIR$/springboot_environment/springboot_environment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_error_resolver/springboot_error_resolver.iml" filepath="$PROJECT_DIR$/springboot_error_resolver/springboot_error_resolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_eureka/springboot_eureka.iml" filepath="$PROJECT_DIR$/springboot_eureka/springboot_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_file/springboot_file.iml" filepath="$PROJECT_DIR$/springboot_file/springboot_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_freemarker/springboot_freemarker.iml" filepath="$PROJECT_DIR$/springboot_freemarker/springboot_freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_helloworld/springboot_helloworld.iml" filepath="$PROJECT_DIR$/springboot_helloworld/springboot_helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_interceptor/springboot_interceptor.iml" filepath="$PROJECT_DIR$/springboot_interceptor/springboot_interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_jdbc/springboot_jdbc.iml" filepath="$PROJECT_DIR$/springboot_jdbc/springboot_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_json/springboot_json.iml" filepath="$PROJECT_DIR$/springboot_json/springboot_json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_jsp/springboot_jsp.iml" filepath="$PROJECT_DIR$/springboot_jsp/springboot_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_junit/springboot_junit.iml" filepath="$PROJECT_DIR$/springboot_junit/springboot_junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mail/springboot_mail.iml" filepath="$PROJECT_DIR$/springboot_mail/springboot_mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_multiple_mybatisplus_ds/springboot_multiple_mybatisplus_ds.iml" filepath="$PROJECT_DIR$/springboot_multiple_mybatisplus_ds/springboot_multiple_mybatisplus_ds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_annotation/springboot_mybatis_annotation.iml" filepath="$PROJECT_DIR$/springboot_mybatis_annotation/springboot_mybatis_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_druid/springboot_mybatis_druid.iml" filepath="$PROJECT_DIR$/springboot_mybatis_druid/springboot_mybatis_druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_jar/springboot_mybatis_jar.iml" filepath="$PROJECT_DIR$/springboot_mybatis_jar/springboot_mybatis_jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_plus/springboot_mybatis_plus.iml" filepath="$PROJECT_DIR$/springboot_mybatis_plus/springboot_mybatis_plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mybatis_xml/springboot_mybatis_xml.iml" filepath="$PROJECT_DIR$/springboot_mybatis_xml/springboot_mybatis_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_netty/springboot_netty.iml" filepath="$PROJECT_DIR$/springboot_netty/springboot_netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_port/springboot_port.iml" filepath="$PROJECT_DIR$/springboot_port/springboot_port.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml" filepath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_security/springboot_security.iml" filepath="$PROJECT_DIR$/springboot_security/springboot_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_thymeleaf/springboot_thymeleaf.iml" filepath="$PROJECT_DIR$/springboot_thymeleaf/springboot_thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_util/springboot_util.iml" filepath="$PROJECT_DIR$/springboot_util/springboot_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_xml/springboot_xml.iml" filepath="$PROJECT_DIR$/springboot_xml/springboot_xml.iml" />
+    </modules>
+  </component>
+</project>

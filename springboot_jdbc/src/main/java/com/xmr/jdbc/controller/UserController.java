@@ -16,14 +16,6 @@ public class UserController {
     private IUserService userService;
 
 
-    @RequestMapping("/hello")
-    public User hello() {
-        User user = new User();
-        user.setName("afa1f");
-        user.setSex("m");
-        return user;
-    }
-
 //    @RequestMapping(method = RequestMethod.GET)
 //    public User getUser(@RequestParam("id") Integer id) {
 //        return userService.getUser(id);
@@ -42,6 +34,7 @@ public class UserController {
     @PutMapping(value = "/update/{id}")
     public void updateUser(@PathVariable("id") Integer id, @RequestParam("name") String name) {
         userService.updateUser(id, name);
+
     }
 
     @DeleteMapping(value = "/delete/{id}")

@@ -12,7 +12,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 @RequestMapping("/jsp")
 public class JspController {
-
+    @GetMapping("/index")
+    public String index() {
+        return "index";
+    }
     //正常和springmvc设置返回参数是意义的用法了
     @GetMapping("/map")
     public String index(String name, ModelMap map) {

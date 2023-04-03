@@ -1,11 +1,15 @@
 package com.xmr.error_resolver.controller;
 
+
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by xmr on 2019/8/7.
@@ -20,7 +24,7 @@ public class GlobalExceptionHandler {
      * @return
      * @throws Exception
      */
-    @ExceptionHandler(value = Exception.class)
+    @ExceptionHandler(value = ArithmeticException.class)
     public Object errorHandler(HttpServletRequest request,
                                HttpServletResponse response, Exception e)  {
         e.printStackTrace();
@@ -37,13 +41,13 @@ public class GlobalExceptionHandler {
      * @param e
      * @return
      */
-//    @ExceptionHandler(Exception.class)
-//    @ResponseBody
-//    public Map<String, Object> defaultExceptionHandler(Exception e) {
-//
-//        Map<String, Object> map = new HashMap<>();
-//        map.put("code", 500);
-//        map.put("msg", e.getMessage());
-//        return map;
-//    }
+    @ExceptionHandler(NullPointerException.class)
+    @ResponseBody
+    public Map<String, Object> defaultExceptionHandler(Exception e) {
+
+        Map<String, Object> map = new HashMap<>();
+        map.put("code", 500);
+        map.put("msg", e.getMessage());
+        return map;
+    }
 }

@@ -25,7 +25,7 @@ public class UserDaoImpl implements IUserDao {
 
     @Override
     public User getUser(Integer id) {
-        List<User> userList = jdbcTemplate.query("select * FROM first_db.user WHERE id = ?", new Object[]{id}, new BeanPropertyRowMapper(User.class));
+        List<User> userList = jdbcTemplate.query("select * FROM user WHERE id = ?", new Object[]{id}, new BeanPropertyRowMapper(User.class));
         if (userList != null && userList.size() > 0) {
             User user = userList.get(0);
             return user;

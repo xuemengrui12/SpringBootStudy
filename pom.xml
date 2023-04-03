@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xmr</groupId>
+    <artifactId>SpringBootStudy</artifactId>
+    <packaging>pom</packaging>
+    <version>2.0.0</version>
+
+    <modules>
+        <module>springboot2.0-dubbo-master</module>
+        <module>springboot_actuator</module>
+        <module>springboot_adminui_client</module>
+        <module>springboot_adminui_server</module>
+        <module>springboot_aop_log</module>
+        <module>springboot_async</module>
+        <module>springboot_cache</module>
+        <module>springboot_devtools</module>
+        <module>springboot_mail</module>
+        <module>springboot_helloworld</module>
+        <module>springboot_jpa</module>
+        <module>springboot_jsp</module>
+        <module>springboot_port</module>
+        <module>springboot_security</module>
+        <module>springboot_util</module>
+
+    </modules>
+    <repositories>
+        <repository>
+            <id>activiti-repos2</id>
+            <url>https://app.camunda.com/nexus/content/groups/public</url>
+<!--            <id>aliyunmaven</id>-->
+<!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+        </repository>
+    </repositories>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xmr.db.mybatis.mapper.ds2.StuMapper">
+    <resultMap id="BaseResultMap" type="com.xmr.db.mybatis.domain.Stu">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="sex" property="sex" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, name, sex
+    </sql>
+
+    <select id="getStu" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM stu
+        WHERE id = #{id}
+    </select>
+
+    <insert id="addStu" parameterType="com.xmr.db.mybatis.domain.Stu">
+        INSERT INTO stu
+            (name, sex)
+        VALUES (#{name}, #{sex})
+    </insert>
+
+    <update id="updateStu" parameterType="com.xmr.db.mybatis.domain.Stu">
+        UPDATE
+        stu
+        SET
+        <if test="name != null">name = #{userName},</if>
+        <if test="sex != null">sex = #{sex},</if>
+        WHERE
+        id = #{id}
+    </update>
+
+    <delete id="deleteStuById" parameterType="java.lang.Long">
+        DELETE
+        FROM stu
+        WHERE id = #{id}
+    </delete>
+
+</mapper>

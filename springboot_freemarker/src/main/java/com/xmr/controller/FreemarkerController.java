@@ -7,13 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@RequestMapping("/freemarker")
 public class FreemarkerController {
 
     @RequestMapping("/map")
     public String index(ModelMap map) {
         map.addAttribute("name", "freemarker");
         map.addAttribute("from", "baidu.com");
-        // 模版名称，实际的目录为：src/main/resources/templates/thymeleaf.html
+        // 模版名称，实际的目录为：src/main/resources/templates/freemarker.ftl
         return "freemarker";
     }
 
@@ -22,7 +23,7 @@ public class FreemarkerController {
         ModelAndView mv = new ModelAndView();
         mv.addObject("name", "freemarker");
         mv.addObject("from", "baidu.com");
-        // 模版名称，实际的目录为：src/main/resources/templates/thymeleaf.html
+        // 模版名称，实际的目录为：src/main/resources/templates/freemarker.ftl
         mv.setViewName("freemarker");
         return mv;
     }

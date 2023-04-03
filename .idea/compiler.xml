@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot_multiple_mybatisplus_ds" />
+        <module name="springboot_adminui_server" />
+        <module name="springboot_redis" />
+        <module name="springboot_adminui_client" />
+        <module name="springboot_json" />
+        <module name="springboot_freemarker" />
+        <module name="springboot_environment" />
+        <module name="springboot_file" />
+        <module name="springboot_cache" />
+        <module name="springboot_netty" />
+        <module name="springboot2.0-dubbo-public-api-member-service" />
+        <module name="springboot_jdbc" />
+        <module name="springboot_helloworld" />
+        <module name="springboot_mail" />
+        <module name="springboot_eureka" />
+        <module name="springboot_xml" />
+        <module name="springboot_mybatis_plus" />
+        <module name="springboot_aop_log" />
+        <module name="springboot_mybatis_druid" />
+        <module name="springboot_junit" />
+        <module name="springboot_mybatis_jar" />
+        <module name="springboot_port" />
+        <module name="springboot_mybatis_xml" />
+        <module name="springboot_util" />
+        <module name="springboot_security" />
+        <module name="springboot_mybatis_annotation" />
+        <module name="springboot_actuator" />
+        <module name="springboot_jsp" />
+        <module name="springboot_error_resolver" />
+        <module name="springboot2.0-dubbo-order-web" />
+        <module name="springboot_devtools" />
+        <module name="springboot_async" />
+        <module name="springboot2.0-dubbo-public-api-member-service-impl" />
+        <module name="springboot_thymeleaf" />
+        <module name="springboot_interceptor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="11" />
+      <module name="springboot2.0-dubbo-master" target="1.8" />
+      <module name="springboot2.0-dubbo-order-web" target="1.7" />
+      <module name="springboot2.0-dubbo-public-api-member-service" target="1.7" />
+      <module name="springboot2.0-dubbo-public-api-member-service-impl" target="1.7" />
+      <module name="springboot2.0-dubbo-public-api-service" target="1.7" />
+      <module name="springboot_actuator" target="1.8" />
+      <module name="springboot_adminui_client" target="1.8" />
+      <module name="springboot_adminui_server" target="1.8" />
+      <module name="springboot_aop_log" target="1.8" />
+      <module name="springboot_async" target="1.8" />
+      <module name="springboot_cache" target="1.8" />
+      <module name="springboot_devtools" target="1.8" />
+      <module name="springboot_environment" target="1.8" />
+      <module name="springboot_error_resolver" target="1.8" />
+      <module name="springboot_eureka" target="11" />
+      <module name="springboot_eureka_provider" target="11" />
+      <module name="springboot_file" target="1.8" />
+      <module name="springboot_freemarker" target="1.8" />
+      <module name="springboot_helloworld" target="1.8" />
+      <module name="springboot_interceptor" target="1.8" />
+      <module name="springboot_jdbc" target="1.8" />
+      <module name="springboot_jpa" target="1.8" />
+      <module name="springboot_json" target="1.8" />
+      <module name="springboot_jsp" target="1.8" />
+      <module name="springboot_junit" target="1.8" />
+      <module name="springboot_mail" target="1.8" />
+      <module name="springboot_multiple_mybatisplus_ds" target="1.8" />
+      <module name="springboot_mybatis_annotation" target="1.8" />
+      <module name="springboot_mybatis_druid" target="1.8" />
+      <module name="springboot_mybatis_jar" target="1.8" />
+      <module name="springboot_mybatis_plus" target="1.8" />
+      <module name="springboot_mybatis_xml" target="1.8" />
+      <module name="springboot_netty" target="1.8" />
+      <module name="springboot_port" target="1.8" />
+      <module name="springboot_redis" target="1.8" />
+      <module name="springboot_security" target="1.8" />
+      <module name="springboot_thymeleaf" target="1.8" />
+      <module name="springboot_util" target="1.8" />
+      <module name="springboot_xml" target="1.8" />
+      <module name="SpringBootStudy" target="1.8" />
+      <module name="util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="springboot2.0-dubbo-order-web" options="-parameters" />
+      <module name="springboot2.0-dubbo-public-api-member-service" options="-parameters" />
+      <module name="springboot2.0-dubbo-public-api-member-service-impl" options="-parameters" />
+      <module name="springboot_actuator" options="-parameters" />
+      <module name="springboot_adminui_client" options="-parameters" />
+      <module name="springboot_adminui_server" options="-parameters" />
+      <module name="springboot_aop_log" options="-parameters" />
+      <module name="springboot_async" options="-parameters" />
+      <module name="springboot_cache" options="-parameters" />
+      <module name="springboot_devtools" options="-parameters" />
+      <module name="springboot_environment" options="-parameters" />
+      <module name="springboot_error_resolver" options="-parameters" />
+      <module name="springboot_eureka" options="-parameters" />
+      <module name="springboot_eureka_provider" options="-parameters" />
+      <module name="springboot_file" options="-parameters" />
+      <module name="springboot_freemarker" options="-parameters" />
+      <module name="springboot_helloworld" options="-parameters" />
+      <module name="springboot_interceptor" options="-parameters" />
+      <module name="springboot_jdbc" options="-parameters" />
+      <module name="springboot_jpa" options="-parameters" />
+      <module name="springboot_json" options="-parameters" />
+      <module name="springboot_jsp" options="-parameters" />
+      <module name="springboot_junit" options="-parameters" />
+      <module name="springboot_mail" options="-parameters" />
+      <module name="springboot_multiple_mybatisplus_ds" options="-parameters" />
+      <module name="springboot_mybatis_annotation" options="-parameters" />
+      <module name="springboot_mybatis_druid" options="-parameters" />
+      <module name="springboot_mybatis_jar" options="-parameters" />
+      <module name="springboot_mybatis_plus" options="-parameters" />
+      <module name="springboot_mybatis_xml" options="-parameters" />
+      <module name="springboot_netty" options="-parameters" />
+      <module name="springboot_port" options="-parameters" />
+      <module name="springboot_redis" options="-parameters" />
+      <module name="springboot_security" options="-parameters" />
+      <module name="springboot_thymeleaf" options="-parameters" />
+      <module name="springboot_util" options="-parameters" />
+      <module name="springboot_xml" options="-parameters" />
+    </option>
+  </component>
+</project>
