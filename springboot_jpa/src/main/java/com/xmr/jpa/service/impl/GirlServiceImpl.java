@@ -91,15 +91,17 @@ public class GirlServiceImpl implements IGirlService {
 
     @Override
     public List<Girl> findByName(String name) {
-//        return girlRepository.findByName(name);
+        return girlRepository.findByName(name);
 
-        return girlRepository.findByName(name,Sort.by(Sort.Direction.ASC,"age"));
-//        return girlRepository.findByName(name, PageRequest.of(0,10));
+
     }
 
     @Override
     public List<Girl> findByName(String name, Sort sort) {
-        return null;
+
+        return girlRepository.findByName(name,Sort.by(Sort.Direction.ASC,"age"));
+//        return girlRepository.findByName(name, PageRequest.of(0,10));
+//        return null;
     }
 
     @Override

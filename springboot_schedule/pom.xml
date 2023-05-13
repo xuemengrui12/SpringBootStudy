@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xmr</groupId>
-    <artifactId>schedule</artifactId>
+    <artifactId>springboot_schedule</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>schedule</name>
+    <name>springboot_schedule</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

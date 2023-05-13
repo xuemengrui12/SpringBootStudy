@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_async/springboot_async.iml" filepath="$PROJECT_DIR$/springboot_async/springboot_async.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_cache/springboot_cache.iml" filepath="$PROJECT_DIR$/springboot_cache/springboot_cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_devtools/springboot_devtools.iml" filepath="$PROJECT_DIR$/springboot_devtools/springboot_devtools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_dubbo_api/springboot_dubbo_api.iml" filepath="$PROJECT_DIR$/springboot_dubbo_api/springboot_dubbo_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_environment/springboot_environment.iml" filepath="$PROJECT_DIR$/springboot_environment/springboot_environment.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_error_resolver/springboot_error_resolver.iml" filepath="$PROJECT_DIR$/springboot_error_resolver/springboot_error_resolver.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_eureka/springboot_eureka.iml" filepath="$PROJECT_DIR$/springboot_eureka/springboot_eureka.iml" />
@@ -36,7 +37,9 @@
       <module fileurl="file://$PROJECT_DIR$/springboot_netty/springboot_netty.iml" filepath="$PROJECT_DIR$/springboot_netty/springboot_netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_port/springboot_port.iml" filepath="$PROJECT_DIR$/springboot_port/springboot_port.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml" filepath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_schedule/springboot_schedule.iml" filepath="$PROJECT_DIR$/springboot_schedule/springboot_schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_security/springboot_security.iml" filepath="$PROJECT_DIR$/springboot_security/springboot_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_ssl/springboot_ssl.iml" filepath="$PROJECT_DIR$/springboot_ssl/springboot_ssl.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_thymeleaf/springboot_thymeleaf.iml" filepath="$PROJECT_DIR$/springboot_thymeleaf/springboot_thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_util/springboot_util.iml" filepath="$PROJECT_DIR$/springboot_util/springboot_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_xml/springboot_xml.iml" filepath="$PROJECT_DIR$/springboot_xml/springboot_xml.iml" />

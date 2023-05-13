@@ -33,6 +33,7 @@
     <file url="file://$PROJECT_DIR$/springboot_interceptor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_interceptor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_json/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_json/src/main/resources" charset="UTF-8" />
@@ -61,8 +62,10 @@
     <file url="file://$PROJECT_DIR$/springboot_port/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_schedule/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_ssl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_thymeleaf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_util/src/main/java" charset="UTF-8" />

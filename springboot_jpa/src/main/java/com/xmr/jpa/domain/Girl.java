@@ -12,7 +12,7 @@ import javax.validation.constraints.NotEmpty;
  * 通过@Entity 表明是一个映射的实体类， @Id表明id， @GeneratedValue 字段自动生成
  */
 @Entity
-@NamedQuery(name = "Girl.findByName", query = "select g from Girl g  where g.name=?1")
+@NamedQuery(name = "Girl.findByName", query = "select g from Girl g  where g.name like ?1")
 public class Girl {
     @Id
     @GeneratedValue

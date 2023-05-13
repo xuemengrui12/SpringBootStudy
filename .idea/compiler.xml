@@ -12,10 +12,12 @@
         <module name="springboot_redis" />
         <module name="springboot_adminui_client" />
         <module name="springboot_json" />
+        <module name="springboot_schedule" />
         <module name="springboot_freemarker" />
         <module name="springboot_environment" />
         <module name="springboot_file" />
         <module name="springboot_cache" />
+        <module name="springboot_dubbo_api" />
         <module name="springboot_netty" />
         <module name="springboot2.0-dubbo-public-api-member-service" />
         <module name="springboot_jdbc" />
@@ -37,6 +39,7 @@
         <module name="springboot_jsp" />
         <module name="springboot_error_resolver" />
         <module name="springboot2.0-dubbo-order-web" />
+        <module name="springboot_ssl" />
         <module name="springboot_devtools" />
         <module name="springboot_async" />
         <module name="springboot2.0-dubbo-public-api-member-service-impl" />
@@ -58,6 +61,7 @@
       <module name="springboot_async" target="1.8" />
       <module name="springboot_cache" target="1.8" />
       <module name="springboot_devtools" target="1.8" />
+      <module name="springboot_dubbo_api" target="1.5" />
       <module name="springboot_environment" target="1.8" />
       <module name="springboot_error_resolver" target="1.8" />
       <module name="springboot_eureka" target="11" />
@@ -81,7 +85,9 @@
       <module name="springboot_netty" target="1.8" />
       <module name="springboot_port" target="1.8" />
       <module name="springboot_redis" target="1.8" />
+      <module name="springboot_schedule" target="1.8" />
       <module name="springboot_security" target="1.8" />
+      <module name="springboot_ssl" target="1.8" />
       <module name="springboot_thymeleaf" target="1.8" />
       <module name="springboot_util" target="1.8" />
       <module name="springboot_xml" target="1.8" />
@@ -125,7 +131,9 @@
       <module name="springboot_netty" options="-parameters" />
       <module name="springboot_port" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
+      <module name="springboot_schedule" options="-parameters" />
       <module name="springboot_security" options="-parameters" />
+      <module name="springboot_ssl" options="-parameters" />
       <module name="springboot_thymeleaf" options="-parameters" />
       <module name="springboot_util" options="-parameters" />
       <module name="springboot_xml" options="-parameters" />

@@ -8,9 +8,17 @@
     <artifactId>SpringBootStudy</artifactId>
     <packaging>pom</packaging>
     <version>2.0.0</version>
-
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
     <modules>
-        <module>springboot2.0-dubbo-master</module>
+        <!--        <module>springboot2.0-dubbo-master</module>-->
         <module>springboot_actuator</module>
         <module>springboot_adminui_client</module>
         <module>springboot_adminui_server</module>
@@ -18,6 +26,7 @@
         <module>springboot_async</module>
         <module>springboot_cache</module>
         <module>springboot_devtools</module>
+        <module>springboot_dubbo_api</module>
         <module>springboot_mail</module>
         <module>springboot_helloworld</module>
         <module>springboot_jpa</module>
@@ -25,18 +34,47 @@
         <module>springboot_port</module>
         <module>springboot_security</module>
         <module>springboot_util</module>
+        <module>springboot_ssl</module>
+        <module>springboot_jdbc</module>
+        <module>springboot_schedule</module>
 
     </modules>
     <repositories>
         <repository>
             <id>activiti-repos2</id>
             <url>https://app.camunda.com/nexus/content/groups/public</url>
-<!--            <id>aliyunmaven</id>-->
-<!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+            <!--            <id>aliyunmaven</id>-->
+            <!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
         </repository>
     </repositories>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>compile</scope>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.2</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
