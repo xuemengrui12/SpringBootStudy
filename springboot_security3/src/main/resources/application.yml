@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1/first_db?characterEncoding=utf-8&useUnicode=true&serverTimezone=UTC&useSSL=false&autoReconnect=true
+#    username: root
+#    password: 9958
+  ############################################################
+  #
+  # 自定义security默认用户名和密码
+  #
+  ############################################################
+#  security:
+#    user:
+#      name: "user"
+#      password: "123"
+
+
+

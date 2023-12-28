@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/test?characterEncoding=utf-8&useUnicode=true&serverTimezone=UTC&useSSL=false&autoReconnect=true
+    username: root
+    password: 9958
+  ############################################################
+  #
+  # 自定义security默认用户名和密码
+  #
+  ############################################################
+#  security:
+#    user:
+#      name: "user"
+#      password: "123"
+
+  ############################################################
+  #
+  # jpa资源配置
+  #
+  ############################################################
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      #      ddl-auto: create #每次启动都会重新创建
+      ddl-auto: update #如果表中有数据就不会重新创建
+    show-sql: true
+

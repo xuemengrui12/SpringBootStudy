@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
     <option name="effort" value="default" />
@@ -44,11 +45,16 @@
         <option value="$PROJECT_DIR$/springboot_xml/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_file/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_security1/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_security2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_security3/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_security4/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/springboot_jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_pic1/pom.xml" />
       </set>
     </option>
   </component>

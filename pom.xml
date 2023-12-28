@@ -32,11 +32,15 @@
         <module>springboot_jpa</module>
         <module>springboot_jsp</module>
         <module>springboot_port</module>
-        <module>springboot_security</module>
+        <module>springboot_security1</module>
+        <module>springboot_security2</module>
+        <module>springboot_security3</module>
+        <module>springboot_security91</module>
         <module>springboot_util</module>
         <module>springboot_ssl</module>
         <module>springboot_jdbc</module>
         <module>springboot_schedule</module>
+<!--        <module>springboot_pic1</module>-->
 
     </modules>
     <repositories>
@@ -52,10 +56,12 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
+                <version>2.6.2</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
+                <version>2.6.2</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
